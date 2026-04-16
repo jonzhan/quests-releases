@@ -5,7 +5,12 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Thu, 16 Apr 2026 10:28:38 +0000</pubDate>
+    <pubDate>Thu, 16 Apr 2026 18:19:34 +0000</pubDate>
+    <item>
+      <title>Release 2026.04.17 (build 3)</title>
+      <pubDate>Thu, 16 Apr 2026 18:19:34 +0800</pubDate>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.04.17-0218/Quests-2026.04.17.zip" sparkle:version="3" sparkle:shortVersionString="2026.04.17" sparkle:edSignature="TSO3yNw3/iM1h+8GUp5/fxm7I20WHWgK63FHxF5jsI3DzKRMkXtrCGabONPI0nUMkUvCfkL94WLAw6vTCfZyAw==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.04.16 (build 2)</title>
       <pubDate>Thu, 16 Apr 2026 10:28:38 +0800</pubDate>

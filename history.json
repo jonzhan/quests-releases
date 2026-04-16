@@ -1,6 +1,37 @@
 {
-  "generatedAt": "2026-04-16T10:28:38Z",
+  "generatedAt": "2026-04-16T18:19:34Z",
   "versions": [
+    {
+      "version": "2026.04.17",
+      "buildNumber": "3",
+      "title": "Release 2026.04.17 (build 3)",
+      "publishedAt": "2026-04-16T18:19:34Z",
+      "highlights": [
+        "fix: enable Apple Events under Hardened Runtime",
+        "chore(release): support local-time minute release tags",
+        "Higher Contrast Maritza!"
+      ],
+      "entries": [
+        {
+          "category": "Fixed",
+          "text": "fix: enable Apple Events under Hardened Runtime"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): support local-time minute release tags"
+        },
+        {
+          "category": "Internal",
+          "text": "Higher Contrast Maritza!"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): persist metadata only after successful publish"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.04.17-0218/Quests-2026.04.17.zip",
+      "sparkleSignature": "TSO3yNw3/iM1h+8GUp5/fxm7I20WHWgK63FHxF5jsI3DzKRMkXtrCGabONPI0nUMkUvCfkL94WLAw6vTCfZyAw=="
+    },
     {
       "version": "2026.04.16",
       "buildNumber": "2",
