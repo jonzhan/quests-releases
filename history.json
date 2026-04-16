@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-16T09:20:41Z",
+  "generatedAt": "2026-04-16T09:43:18Z",
   "versions": [
     {
       "version": "2026.04.16",
-      "buildNumber": "202604160919",
-      "title": "Release 2026.04.16 (build 202604160919)",
-      "publishedAt": "2026-04-16T09:20:41Z",
+      "buildNumber": "202604160941",
+      "title": "Release 2026.04.16 (build 202604160941)",
+      "publishedAt": "2026-04-16T09:43:18Z",
       "highlights": [
         "feat: sort context columns with active quests to the left",
         "fix: remove auto-focus side effect from start and createQuest",
@@ -23,6 +23,10 @@
         {
           "category": "Fixed",
           "text": "fix: allow unfocus from focused underway lane"
+        },
+        {
+          "category": "Internal",
+          "text": "Maritza Icon!"
         },
         {
           "category": "Internal",
@@ -327,14 +331,10 @@
         {
           "category": "Internal",
           "text": "refactor(board): remove dedicated underway lane and add quick-start creation"
-        },
-        {
-          "category": "Internal",
-          "text": "style(on-deck): use rounded literal hover button sizing constants"
         }
       ],
       "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.04.16/Quests-2026.04.16.zip",
-      "sparkleSignature": "ChIKJDzrOnN+iweFrMG4bsWvYd3IOgDHoyHpijxQGFjiPhMG4gQlJyiTKaqKTSIdXT3XiO3uDxkS7UMj8wokDQ=="
+      "sparkleSignature": "vVailuABZEu7Sb7IKbUWTrXn7ToQx6oIhtVC0nshGi8LKQ4ktjznb4PWyRbbOlFvwg62wAbeZskj9DTqIjmODg=="
     }
   ]
 }
