@@ -1,4 +1,340 @@
 {
-  "generatedAt": "2026-04-16T09:51:52Z",
-  "versions": []
+  "generatedAt": "2026-04-16T09:54:29Z",
+  "versions": [
+    {
+      "version": "2026.04.16",
+      "buildNumber": "1",
+      "title": "Release 2026.04.16 (build 1)",
+      "publishedAt": "2026-04-16T09:54:29Z",
+      "highlights": [
+        "feat: sort context columns with active quests to the left",
+        "fix: remove auto-focus side effect from start and createQuest",
+        "fix: allow unfocus from focused underway lane"
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat: sort context columns with active quests to the left"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix: remove auto-focus side effect from start and createQuest"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix: allow unfocus from focused underway lane"
+        },
+        {
+          "category": "Internal",
+          "text": "Maritza Icon!"
+        },
+        {
+          "category": "Internal",
+          "text": "docs(CLAUDE.md): document Swift Testing parallel crash and serialization fix"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(tests): serialize QuestsAppModel suites to prevent SwiftData race crashes"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(BUN-265): Surface deadlines in quest card badges for Linear and Craft"
+        },
+        {
+          "category": "Internal",
+          "text": "Add configurable Linear triage destination URL"
+        },
+        {
+          "category": "Internal",
+          "text": "Sanitize seeded integration defaults and triage links"
+        },
+        {
+          "category": "Internal",
+          "text": "Refactor settings into service sections with status indicators"
+        },
+        {
+          "category": "Internal",
+          "text": "Added lessons learned"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(tests): mark Things adapter forwarding test as main-actor isolated"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(quest-cards): remove redundant glass effect containers around hover controls"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(quest-cards): animate lane transitions as unified matched-geometry cards"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(hover): restore mild card hover scale with shared button overlays"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(hover): restore compact-to-expanded hover button width animation"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(hover): keep underway section always in hierarchy to prevent on-deck card position shifts"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(hover): remove GeometryReader from scroll container, dead contentShape, hover scale, and view-tree churn on button visibility"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(hover): replace LazyVStack with VStack in QuestsViewProjectGroup to fix hit-test offset"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: replace lastRefreshAttemptAt clear with bypassDebounce parameter on refreshSource"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(default-context-label): refresh source immediately after saving, bypassing debounce"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(adapters): extend defaultContextLabel provider closure to Linear, Craft, and Coda"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(things-adapter): read defaultContextLabel via closure to pick up in-session config changes"
+        },
+        {
+          "category": "Internal",
+          "text": "made git branch instructions agent-agnostic"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(source-adapter): add defaultContextLabel to protocol and wire per-source settings UI"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(focusedquest): tighten animation and cleanup"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(focusedquest): add focus overlay animation and unfocus bounce"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(focusedquest): replace black scrim with ultraThinMaterial, expand card to 90%"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(questcard): extract FocusedQuestCard, remove glass abstraction layer"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(questboardview): lower minimum window size to 320x320"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(questcard): scale focused card detail text to 17pt with Dynamic Type"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(questcard): default detail block limit to nil to show full content"
+        },
+        {
+          "category": "Internal",
+          "text": "feat(questcard): render detail text as Markdown using swift-markdown"
+        },
+        {
+          "category": "Internal",
+          "text": "build: add swift-markdown package dependency to QuestBoardUI"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(questboardui): split QuestBoardView and QuestBoardSharedViewHelpers into focused files"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(questboardui): rename lane/card types and reorganize view files"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: QuestCardContainer->QuestCard"
+        },
+        {
+          "category": "Internal",
+          "text": "chore: remove run script for version increments"
+        },
+        {
+          "category": "Internal",
+          "text": "Basic Focus View"
+        },
+        {
+          "category": "Internal",
+          "text": "test(playground): align lane assertions with on-deck underway model"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(questboardui): remove focus-driven lane visibility conditionals"
+        },
+        {
+          "category": "Internal",
+          "text": "docs(agents): default xcodebuild runs to quiet output"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(xcodeproj): apply Xcode recommended settings"
+        },
+        {
+          "category": "Internal",
+          "text": "fix(app): resolve MenuBarDisplayFormatter actor-isolation warnings"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(questboardui): remove unused shared helper and PoC code"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: tighten client helper visibility and document split roles"
+        },
+        {
+          "category": "Internal",
+          "text": "test: prune stale auto-focus assertions and align spec"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: split service clients by transport and parsing responsibilities"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: split settings view into section subviews"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: split on deck lane into focused section views"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: extract quest transition orchestration from app model"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: split quest board shared components by responsibility"
+        },
+        {
+          "category": "Internal",
+          "text": "Ignore claude local stuff"
+        },
+        {
+          "category": "Internal",
+          "text": "Added claude.md symlink"
+        },
+        {
+          "category": "Internal",
+          "text": "style: use monospaced body font and primary foreground for quest card details"
+        },
+        {
+          "category": "Internal",
+          "text": "chore: use separate debug store filename to avoid polluting release data"
+        },
+        {
+          "category": "Internal",
+          "text": "docs: add concise test signal guardrails"
+        },
+        {
+          "category": "Internal",
+          "text": "test: remove duplicate things debounce scenario"
+        },
+        {
+          "category": "Internal",
+          "text": "test: trim duplicate source adapter verification assertions"
+        },
+        {
+          "category": "Internal",
+          "text": "test: consolidate configuration warning coverage matrix"
+        },
+        {
+          "category": "Internal",
+          "text": "test: trim redundant cross-source state assertions"
+        },
+        {
+          "category": "Internal",
+          "text": "test: remove duplicate coda verification recovery coverage"
+        },
+        {
+          "category": "Internal",
+          "text": "test: trim low-signal coda routines assertions"
+        },
+        {
+          "category": "Internal",
+          "text": "test: remove duplicate linear recovery permutations"
+        },
+        {
+          "category": "Internal",
+          "text": "test: trim remaining low-signal linear and coda mapping assertions"
+        },
+        {
+          "category": "Internal",
+          "text": "test: focus craft payload decoder coverage on key behavior"
+        },
+        {
+          "category": "Internal",
+          "text": "test: trim redundant adapter assertions and consolidate suite anchors"
+        },
+        {
+          "category": "Internal",
+          "text": "test: prune low-signal parser and policy plumbing coverage"
+        },
+        {
+          "category": "Internal",
+          "text": "test: centralize Craft fixtures and remove duplicate helpers"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: extract pending operation orchestration into coordinator"
+        },
+        {
+          "category": "Internal",
+          "text": "test: split source suites by behavior and prune brittle assertions"
+        },
+        {
+          "category": "Internal",
+          "text": "docs: codify user-controlled lane selection behavior"
+        },
+        {
+          "category": "Internal",
+          "text": "harden: guard invalid quest transitions and cover no-op behavior"
+        },
+        {
+          "category": "Internal",
+          "text": "behavior: keep lane selection user-controlled across mutations"
+        },
+        {
+          "category": "Internal",
+          "text": "chore: update xcode project configuration"
+        },
+        {
+          "category": "Internal",
+          "text": "test: consolidate duplicate cross-source focus clearing coverage"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor app model layout and tighten focus/create quest behavior"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: remove ui animations and transitions"
+        },
+        {
+          "category": "Internal",
+          "text": "chore: use default system animations"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(board): remove dedicated underway lane and add quick-start creation"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.04.16/Quests-2026.04.16.zip",
+      "sparkleSignature": "cdvKMU14XDqkGimmxK8ZUfxrXrAM9bVkCzfQSzHlzhDFgcqy+Lj+eSelSRR2A4Y5nuK0UBWXOHgDu+JRbiXuDA=="
+    }
+  ]
 }
