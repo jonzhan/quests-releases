@@ -5,11 +5,6 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Thu, 16 Apr 2026 09:43:18 +0000</pubDate>
-    <item>
-      <title>Release 2026.04.16 (build 202604160941)</title>
-      <pubDate>Thu, 16 Apr 2026 09:43:18 +0800</pubDate>
-      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.04.16/Quests-2026.04.16.zip" sparkle:version="202604160941" sparkle:shortVersionString="2026.04.16" sparkle:edSignature="vVailuABZEu7Sb7IKbUWTrXn7ToQx6oIhtVC0nshGi8LKQ4ktjznb4PWyRbbOlFvwg62wAbeZskj9DTqIjmODg==" type="application/octet-stream"/>
-    </item>
+    <pubDate>Thu, 16 Apr 2026 09:51:52 +0000</pubDate>
   </channel>
 </rss>
