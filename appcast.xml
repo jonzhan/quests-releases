@@ -2,9 +2,14 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Quests Updates</title>
-    <link>https://github.com/chaoticgood/quests/releases</link>
+    <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Wed, 15 Apr 2026 19:53:39 +0000</pubDate>
+    <pubDate>Thu, 16 Apr 2026 09:20:41 +0000</pubDate>
+    <item>
+      <title>Release 2026.04.16 (build 202604160919)</title>
+      <pubDate>Thu, 16 Apr 2026 09:20:41 +0800</pubDate>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.04.16/Quests-2026.04.16.zip" sparkle:version="202604160919" sparkle:shortVersionString="2026.04.16" sparkle:edSignature="ChIKJDzrOnN+iweFrMG4bsWvYd3IOgDHoyHpijxQGFjiPhMG4gQlJyiTKaqKTSIdXT3XiO3uDxkS7UMj8wokDQ==" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
