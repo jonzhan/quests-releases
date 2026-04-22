@@ -1,6 +1,129 @@
 {
-  "generatedAt": "2026-04-16T19:18:58Z",
+  "generatedAt": "2026-04-22T11:38:05Z",
   "versions": [
+    {
+      "version": "2026.04.22",
+      "buildNumber": "5",
+      "title": "Release 2026.04.22 (build 5)",
+      "publishedAt": "2026-04-22T11:38:05Z",
+      "summary": [
+        "feat: INCREASED ICON CUTENESS!",
+        "feat(board): streamline focus mode chrome and card sizing",
+        "feat(release): canonicalize summary from feed to appcast"
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat: INCREASED ICON CUTENESS!"
+        },
+        {
+          "category": "Added",
+          "text": "feat(board): streamline focus mode chrome and card sizing"
+        },
+        {
+          "category": "Added",
+          "text": "feat(release): canonicalize summary from feed to appcast"
+        },
+        {
+          "category": "Added",
+          "text": "feat: replace radial gradient background with Light Background image asset"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): truncate quest card details at 2 blocks with ellipsis indicator"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): add status indicator emoji to settings sidebar services"
+        },
+        {
+          "category": "Added",
+          "text": "feat(coda): implement Another Day via Deferred Until column"
+        },
+        {
+          "category": "Added",
+          "text": "feat(linear): implement Another Day via backlog state"
+        },
+        {
+          "category": "Added",
+          "text": "feat(tests): add Another Day test coverage"
+        },
+        {
+          "category": "Added",
+          "text": "feat(another-day): implement Another Day for On Deck quests"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): add SnoozedPillRow between underway and on-deck sections"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): add Refresh button to toolbar and inline control bar"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): hide Send Underway button when TRMNL is not configured"
+        },
+        {
+          "category": "Added",
+          "text": "feat(search): add case-insensitive debounced title search to On Deck view"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix: hide window toolbar in focus mode and document hierarchy guidance"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix: keep toolbar and search visible during focus mode"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(things): use schedule command instead of setting schedule date property"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(things): strip time component from tomorrow date in schedule AppleScript"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(linear): remove Another Day support — snoozedUntilAt is not an issue field"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): use .searchable modifier for On Deck toolbar search field"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): show search field in toolbar when inline lane picker is hidden"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): wire default OpenAI key for note drafting"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: isolate gradient-to-NSImage logic in QuestBoardBackgroundImage"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: render board background gradient into NSImage for compositor blending"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(ui): remove showsInlineLanePicker — toolbar is the only path"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(rename): Defer → Snooze throughout app and tests"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.04.17-0317 (build 4)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.04.22-1935/Quests-2026.04.22.zip",
+      "sparkleSignature": "Mt2qOOy0xE5QUo9ywIRqLMbPXWFCoE8REkfAlV5DtcNU8wwXX+lcBKOA9qqCKlIIBh6OS9vlFAGQllh1NAZtDg=="
+    },
     {
       "version": "2026.04.17",
       "buildNumber": "4",

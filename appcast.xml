@@ -5,15 +5,73 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Thu, 16 Apr 2026 19:18:58 +0000</pubDate>
+    <pubDate>Wed, 22 Apr 2026 11:38:06 +0000</pubDate>
+    <item>
+      <title>Release 2026.04.22 (build 5)</title>
+      <pubDate>Wed, 22 Apr 2026 11:38:05 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>feat: INCREASED ICON CUTENESS!</li>
+<li>feat(board): streamline focus mode chrome and card sizing</li>
+<li>feat(release): canonicalize summary from feed to appcast</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat: INCREASED ICON CUTENESS!</li>
+<li><strong>[Added]</strong> feat(board): streamline focus mode chrome and card sizing</li>
+<li><strong>[Added]</strong> feat(release): canonicalize summary from feed to appcast</li>
+<li><strong>[Added]</strong> feat: replace radial gradient background with Light Background image asset</li>
+<li><strong>[Added]</strong> feat(ui): truncate quest card details at 2 blocks with ellipsis indicator</li>
+<li><strong>[Added]</strong> feat(ui): add status indicator emoji to settings sidebar services</li>
+<li><strong>[Added]</strong> feat(coda): implement Another Day via Deferred Until column</li>
+<li><strong>[Added]</strong> feat(linear): implement Another Day via backlog state</li>
+<li><strong>[Added]</strong> feat(tests): add Another Day test coverage</li>
+<li><strong>[Added]</strong> feat(another-day): implement Another Day for On Deck quests</li>
+<li><strong>[Added]</strong> feat(ui): add SnoozedPillRow between underway and on-deck sections</li>
+<li><strong>[Added]</strong> feat(ui): add Refresh button to toolbar and inline control bar</li>
+<li><strong>[Added]</strong> feat(ui): hide Send Underway button when TRMNL is not configured</li>
+<li><strong>[Added]</strong> feat(search): add case-insensitive debounced title search to On Deck view</li>
+<li><strong>[Fixed]</strong> fix: hide window toolbar in focus mode and document hierarchy guidance</li>
+<li><strong>[Fixed]</strong> fix: keep toolbar and search visible during focus mode</li>
+<li><strong>[Fixed]</strong> fix(things): use schedule command instead of setting schedule date property</li>
+<li><strong>[Fixed]</strong> fix(things): strip time component from tomorrow date in schedule AppleScript</li>
+<li><strong>[Fixed]</strong> fix(linear): remove Another Day support — snoozedUntilAt is not an issue field</li>
+<li><strong>[Fixed]</strong> fix(ui): use .searchable modifier for On Deck toolbar search field</li>
+<li><strong>[Fixed]</strong> fix(ui): show search field in toolbar when inline lane picker is hidden</li>
+<li><strong>[Internal]</strong> chore(release): wire default OpenAI key for note drafting</li>
+<li><strong>[Internal]</strong> refactor: isolate gradient-to-NSImage logic in QuestBoardBackgroundImage</li>
+<li><strong>[Internal]</strong> refactor: render board background gradient into NSImage for compositor blending</li>
+<li><strong>[Internal]</strong> refactor(ui): remove showsInlineLanePicker — toolbar is the only path</li>
+<li><strong>[Internal]</strong> refactor(rename): Defer → Snooze throughout app and tests</li>
+<li><strong>[Internal]</strong> chore(release): v2026.04.17-0317 (build 4)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.04.22-1935/Quests-2026.04.22.zip" sparkle:version="5" sparkle:shortVersionString="2026.04.22" sparkle:edSignature="Mt2qOOy0xE5QUo9ywIRqLMbPXWFCoE8REkfAlV5DtcNU8wwXX+lcBKOA9qqCKlIIBh6OS9vlFAGQllh1NAZtDg==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.04.17 (build 4)</title>
       <pubDate>Thu, 16 Apr 2026 19:18:58 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>fix(config): persist update feed keys in app Info.plist</li>
+<li>Turned off liquid glass effects so that the background on the icon would be a deeper red.</li>
+<li>fix(sparkle): set SUFeedURL via generated Info.plist key</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Internal]</strong> fix(config): persist update feed keys in app Info.plist</li>
+<li><strong>[Internal]</strong> Turned off liquid glass effects so that the background on the icon would be a deeper red.</li>
+<li><strong>[Internal]</strong> fix(sparkle): set SUFeedURL via generated Info.plist key</li>
+<li><strong>[Internal]</strong> chore(release): v2026.04.17-0218 (build 3)</li>
+</ul>]]></description>
       <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.04.17-0317/Quests-2026.04.17.zip" sparkle:version="4" sparkle:shortVersionString="2026.04.17" sparkle:edSignature="W5X1N5p0O//nYxedt0TjHotEDa1l/MYa3ev9fC0UiQR8SByaflUic3iLhNCaH4Wx3ddmuFg7+E11tyHIEpUEAw==" type="application/octet-stream"/>
     </item>
     <item>
       <title>Release 2026.04.16 (build 2)</title>
       <pubDate>Thu, 16 Apr 2026 10:28:38 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<p>No summary available.</p>
+<h3>Details</h3>
+<p>No detailed release notes available.</p>]]></description>
       <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.04.16/Quests-2026.04.16.zip" sparkle:version="2" sparkle:shortVersionString="2026.04.16" sparkle:edSignature="Yl9LpHut2dhfKL71pjvy0ngRBV2ubVbgLqP4/zE8bfTAgPSXpwEUbGf/3me4KjVK36ze/purnuPsOyNGKOgQBQ==" type="application/octet-stream"/>
     </item>
   </channel>
