@@ -1,6 +1,277 @@
 {
-  "generatedAt": "2026-04-22T11:38:05Z",
+  "generatedAt": "2026-04-25T13:08:26Z",
   "versions": [
+    {
+      "version": "2026.04.25",
+      "buildNumber": "6",
+      "title": "Release 2026.04.25 (build 6)",
+      "publishedAt": "2026-04-25T13:08:26Z",
+      "summary": [
+        "Added a light/dark/system appearance toggle and refreshed the macOS toolbar/board chrome for a more native look.",
+        "Improved section navigation and window titling: section labels now appear in the toolbar, with better jump-button visibility and off-screen section access.",
+        "Standardized floating pills and source/task controls, including consistent sizing, clearer labels, and better placement around the board.",
+        "Updated the board layout and visuals: refined lane spacing/alignment, softer lane tints, tinted glass lane containers, and new background image assets.",
+        "Fixed search and focus behavior, including more stable toolbar actions, no unwanted refocus after exiting search, and fewer async warnings.",
+        "Improved release/test automation: fixed single-worker test execution, removed a problematic parallel-testing setting, and added release checks/Discord notification requirements.",
+        "Added usability improvements for source links and Linear integration, including opening tickets in the Linear desktop app and always showing source links."
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(ui): add light/dark/system appearance mode toggle to toolbar"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): move snoozed quests to floating pill row above bottom-leading cluster"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): resize floating pills to match system toolbar button height"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): standardize all floating pills to 30pt height"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): nudge section pill into toolbar band to match item height"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): show section label as glass pill overlay at top center"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): move section label to left of toolbar with more padding"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): show section label in toolbar instead of window title"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): window title is always Underway or On Deck"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): window title shows section only in white"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): show current board section in title"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): source pills at full opacity, hover states deferred"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): simplify source pill text and pill foreground colors"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): align source pills and triage button to lane HSB values"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): tune lane tint HSB values via playground"
+        },
+        {
+          "category": "Added",
+          "text": "feat(playground): add LaneColorTunerView for live HSB lane tint tuning"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): tinted glass lane containers for underway and on-deck columns"
+        },
+        {
+          "category": "Added",
+          "text": "feat(assets): replace procedural gradient background with image assets"
+        },
+        {
+          "category": "Added",
+          "text": "feat(assets): add background images"
+        },
+        {
+          "category": "Added",
+          "text": "feat(release): require AI summary and post Discord notification on release"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): add section jump buttons for off-screen underway and on-deck"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): anchor snoozed to the window bottom (BUN-301)"
+        },
+        {
+          "category": "Added",
+          "text": "feat: replace completed lane with today counter"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): rework source capsule and filter chips"
+        },
+        {
+          "category": "Added",
+          "text": "feat(linear): open ticket links in Linear desktop app"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): label source action with concrete source name"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): always show source links and move status history to diagnostics"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(release): correct xcodebuild flag for single-worker test run"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(release): run tests with a single worker to prevent parallel suite interference"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): simplify section jump pill visibility and fix visibleSection tracking"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): set window title immediately when view attaches to window"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): soften on deck lane tint"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): left align quest lanes"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): tune quest card and lane spacing"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): stabilize unified toolbar backdrop"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): set window background color to prevent opaque toolbar on launch"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): task count pill includes both on-deck and underway quests"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): avoid getHue on dynamic NSColor in deepenedSourceColor"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): restore underway section min-height reservation after lane refactor"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(board): align on deck header jump position"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(board): refine jump button visibility"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix: keep completed counter hierarchy stable"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): stabilize toolbar actions and use native macOS style"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix: stop search refocus on focus-exit and clear async warnings"
+        },
+        {
+          "category": "Internal",
+          "text": "revert: remove parallel-testing-worker-count from publish script"
+        },
+        {
+          "category": "Internal",
+          "text": "Revert \"fix(ui): set window title immediately when view attaches to window\""
+        },
+        {
+          "category": "Internal",
+          "text": "Revert \"feat(ui): window title shows section only in white\""
+        },
+        {
+          "category": "Internal",
+          "text": "Revert \"refactor(ui): use toolbarColorScheme(.dark) for white title text\""
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(ui): use toolbarColorScheme(.dark) for white title text"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(ui): attach board search to root toolbar host"
+        },
+        {
+          "category": "Internal",
+          "text": "chore: remove dead gradient color constants from QuestBoardPalette"
+        },
+        {
+          "category": "Internal",
+          "text": "Revert \"fix(ui): set window background color to prevent opaque toolbar on launch\""
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(ui): update pill labels for clarity"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(ui): merge underway/on-deck jump buttons into single bottom-trailing pill"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(ui): align completed-today pill to floating pill standard"
+        },
+        {
+          "category": "Internal",
+          "text": "Fix start quest wiring in board hosts"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(ui): simplify board chrome and on-deck surfaces"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: standardize floating board pills"
+        },
+        {
+          "category": "Internal",
+          "text": "Stage first underway reveal in two passes"
+        },
+        {
+          "category": "Internal",
+          "text": "Stabilize empty underway scroll behavior"
+        },
+        {
+          "category": "Internal",
+          "text": "Refine native board scroll restoration"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor: remove legacy quest chrome surface/footer"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.04.22-1935 (build 5)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.04.25-2106/Quests-2026.04.25.zip",
+      "sparkleSignature": "unDPboEJvpQVSL/WINDkV9D6aU7txIUAAG2OO5gF8b3D7lREKUaZbrzzsuHFaD20dikJlfw9Itc/UAHzlLMNBw=="
+    },
     {
       "version": "2026.04.22",
       "buildNumber": "5",

@@ -5,7 +5,88 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Wed, 22 Apr 2026 11:38:06 +0000</pubDate>
+    <pubDate>Sat, 25 Apr 2026 13:08:26 +0000</pubDate>
+    <item>
+      <title>Release 2026.04.25 (build 6)</title>
+      <pubDate>Sat, 25 Apr 2026 13:08:26 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>Added a light/dark/system appearance toggle and refreshed the macOS toolbar/board chrome for a more native look.</li>
+<li>Improved section navigation and window titling: section labels now appear in the toolbar, with better jump-button visibility and off-screen section access.</li>
+<li>Standardized floating pills and source/task controls, including consistent sizing, clearer labels, and better placement around the board.</li>
+<li>Updated the board layout and visuals: refined lane spacing/alignment, softer lane tints, tinted glass lane containers, and new background image assets.</li>
+<li>Fixed search and focus behavior, including more stable toolbar actions, no unwanted refocus after exiting search, and fewer async warnings.</li>
+<li>Improved release/test automation: fixed single-worker test execution, removed a problematic parallel-testing setting, and added release checks/Discord notification requirements.</li>
+<li>Added usability improvements for source links and Linear integration, including opening tickets in the Linear desktop app and always showing source links.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(ui): add light/dark/system appearance mode toggle to toolbar</li>
+<li><strong>[Added]</strong> feat(ui): move snoozed quests to floating pill row above bottom-leading cluster</li>
+<li><strong>[Added]</strong> feat(ui): resize floating pills to match system toolbar button height</li>
+<li><strong>[Added]</strong> feat(ui): standardize all floating pills to 30pt height</li>
+<li><strong>[Added]</strong> feat(ui): nudge section pill into toolbar band to match item height</li>
+<li><strong>[Added]</strong> feat(ui): show section label as glass pill overlay at top center</li>
+<li><strong>[Added]</strong> feat(ui): move section label to left of toolbar with more padding</li>
+<li><strong>[Added]</strong> feat(ui): show section label in toolbar instead of window title</li>
+<li><strong>[Added]</strong> feat(ui): window title is always Underway or On Deck</li>
+<li><strong>[Added]</strong> feat(ui): window title shows section only in white</li>
+<li><strong>[Added]</strong> feat(ui): show current board section in title</li>
+<li><strong>[Added]</strong> feat(ui): source pills at full opacity, hover states deferred</li>
+<li><strong>[Added]</strong> feat(ui): simplify source pill text and pill foreground colors</li>
+<li><strong>[Added]</strong> feat(ui): align source pills and triage button to lane HSB values</li>
+<li><strong>[Added]</strong> feat(ui): tune lane tint HSB values via playground</li>
+<li><strong>[Added]</strong> feat(playground): add LaneColorTunerView for live HSB lane tint tuning</li>
+<li><strong>[Added]</strong> feat(ui): tinted glass lane containers for underway and on-deck columns</li>
+<li><strong>[Added]</strong> feat(assets): replace procedural gradient background with image assets</li>
+<li><strong>[Added]</strong> feat(assets): add background images</li>
+<li><strong>[Added]</strong> feat(release): require AI summary and post Discord notification on release</li>
+<li><strong>[Added]</strong> feat(ui): add section jump buttons for off-screen underway and on-deck</li>
+<li><strong>[Added]</strong> feat(ui): anchor snoozed to the window bottom (BUN-301)</li>
+<li><strong>[Added]</strong> feat: replace completed lane with today counter</li>
+<li><strong>[Added]</strong> feat(ui): rework source capsule and filter chips</li>
+<li><strong>[Added]</strong> feat(linear): open ticket links in Linear desktop app</li>
+<li><strong>[Added]</strong> feat(ui): label source action with concrete source name</li>
+<li><strong>[Added]</strong> feat(ui): always show source links and move status history to diagnostics</li>
+<li><strong>[Fixed]</strong> fix(release): correct xcodebuild flag for single-worker test run</li>
+<li><strong>[Fixed]</strong> fix(release): run tests with a single worker to prevent parallel suite interference</li>
+<li><strong>[Fixed]</strong> fix(ui): simplify section jump pill visibility and fix visibleSection tracking</li>
+<li><strong>[Fixed]</strong> fix(ui): set window title immediately when view attaches to window</li>
+<li><strong>[Fixed]</strong> fix(ui): soften on deck lane tint</li>
+<li><strong>[Fixed]</strong> fix(ui): left align quest lanes</li>
+<li><strong>[Fixed]</strong> fix(ui): tune quest card and lane spacing</li>
+<li><strong>[Fixed]</strong> fix(ui): stabilize unified toolbar backdrop</li>
+<li><strong>[Fixed]</strong> fix(ui): set window background color to prevent opaque toolbar on launch</li>
+<li><strong>[Fixed]</strong> fix(ui): task count pill includes both on-deck and underway quests</li>
+<li><strong>[Fixed]</strong> fix(ui): avoid getHue on dynamic NSColor in deepenedSourceColor</li>
+<li><strong>[Fixed]</strong> fix(ui): restore underway section min-height reservation after lane refactor</li>
+<li><strong>[Fixed]</strong> fix(board): align on deck header jump position</li>
+<li><strong>[Fixed]</strong> fix(board): refine jump button visibility</li>
+<li><strong>[Fixed]</strong> fix: keep completed counter hierarchy stable</li>
+<li><strong>[Fixed]</strong> fix(ui): stabilize toolbar actions and use native macOS style</li>
+<li><strong>[Fixed]</strong> fix: stop search refocus on focus-exit and clear async warnings</li>
+<li><strong>[Internal]</strong> revert: remove parallel-testing-worker-count from publish script</li>
+<li><strong>[Internal]</strong> Revert &quot;fix(ui): set window title immediately when view attaches to window&quot;</li>
+<li><strong>[Internal]</strong> Revert &quot;feat(ui): window title shows section only in white&quot;</li>
+<li><strong>[Internal]</strong> Revert &quot;refactor(ui): use toolbarColorScheme(.dark) for white title text&quot;</li>
+<li><strong>[Internal]</strong> refactor(ui): use toolbarColorScheme(.dark) for white title text</li>
+<li><strong>[Internal]</strong> refactor(ui): attach board search to root toolbar host</li>
+<li><strong>[Internal]</strong> chore: remove dead gradient color constants from QuestBoardPalette</li>
+<li><strong>[Internal]</strong> Revert &quot;fix(ui): set window background color to prevent opaque toolbar on launch&quot;</li>
+<li><strong>[Internal]</strong> refactor(ui): update pill labels for clarity</li>
+<li><strong>[Internal]</strong> refactor(ui): merge underway/on-deck jump buttons into single bottom-trailing pill</li>
+<li><strong>[Internal]</strong> refactor(ui): align completed-today pill to floating pill standard</li>
+<li><strong>[Internal]</strong> Fix start quest wiring in board hosts</li>
+<li><strong>[Internal]</strong> refactor(ui): simplify board chrome and on-deck surfaces</li>
+<li><strong>[Internal]</strong> refactor: standardize floating board pills</li>
+<li><strong>[Internal]</strong> Stage first underway reveal in two passes</li>
+<li><strong>[Internal]</strong> Stabilize empty underway scroll behavior</li>
+<li><strong>[Internal]</strong> Refine native board scroll restoration</li>
+<li><strong>[Internal]</strong> refactor: remove legacy quest chrome surface/footer</li>
+<li><strong>[Internal]</strong> chore(release): v2026.04.22-1935 (build 5)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.04.25-2106/Quests-2026.04.25.zip" sparkle:version="6" sparkle:shortVersionString="2026.04.25" sparkle:edSignature="unDPboEJvpQVSL/WINDkV9D6aU7txIUAAG2OO5gF8b3D7lREKUaZbrzzsuHFaD20dikJlfw9Itc/UAHzlLMNBw==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.04.22 (build 5)</title>
       <pubDate>Wed, 22 Apr 2026 11:38:05 +0800</pubDate>
