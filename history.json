@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-04-25T13:08:26Z",
+  "generatedAt": "2026-05-04T05:25:15Z",
   "versions": [
+    {
+      "version": "2026.05.04",
+      "buildNumber": "7",
+      "title": "Release 2026.05.04 (build 7)",
+      "publishedAt": "2026-05-04T05:25:15Z",
+      "summary": [
+        "Updated the application version."
+      ],
+      "entries": [
+        {
+          "category": "Internal",
+          "text": "(chore): Version bump"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.05.04-1323/Quests-2026.05.04.zip",
+      "sparkleSignature": "db5a1kzkImZQbAuVKbuFE5wfzAFrJW6hZT+ruqfncP71pZubDiknS3Wr2KlgkSaMdUMERuzOOLElsSQk6Db+CQ=="
+    },
     {
       "version": "2026.04.25",
       "buildNumber": "6",

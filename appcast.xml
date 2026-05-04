@@ -5,7 +5,20 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Sat, 25 Apr 2026 13:08:26 +0000</pubDate>
+    <pubDate>Mon, 04 May 2026 05:25:16 +0000</pubDate>
+    <item>
+      <title>Release 2026.05.04 (build 7)</title>
+      <pubDate>Mon, 04 May 2026 05:25:15 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>Updated the application version.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Internal]</strong> (chore): Version bump</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.05.04-1323/Quests-2026.05.04.zip" sparkle:version="7" sparkle:shortVersionString="2026.05.04" sparkle:edSignature="db5a1kzkImZQbAuVKbuFE5wfzAFrJW6hZT+ruqfncP71pZubDiknS3Wr2KlgkSaMdUMERuzOOLElsSQk6Db+CQ==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.04.25 (build 6)</title>
       <pubDate>Sat, 25 Apr 2026 13:08:26 +0800</pubDate>
