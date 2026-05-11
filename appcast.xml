@@ -5,7 +5,24 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Mon, 04 May 2026 05:25:16 +0000</pubDate>
+    <pubDate>Mon, 11 May 2026 15:05:22 +0000</pubDate>
+    <item>
+      <title>Release 2026.05.11 (build 8)</title>
+      <pubDate>Mon, 11 May 2026 15:05:22 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>Added a standalone `post_discord_notification.sh` script for posting release notifications to Discord.</li>
+<li>Improved Discord release messages so they send only the summary instead of extra details.</li>
+<li>Fixed the release notes script so it no longer silently aborts when given an empty version range.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(release): add standalone post_discord_notification.sh script</li>
+<li><strong>[Fixed]</strong> fix(release): send only summary to Discord, fix empty-range silent abort in notes script</li>
+<li><strong>[Internal]</strong> chore(release): v2026.05.11-2008 (build 8) notes and version bump</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.05.11-2303/Quests-2026.05.11.zip" sparkle:version="8" sparkle:shortVersionString="2026.05.11" sparkle:edSignature="9iH99jSrInTDd07nMYewoqvUI3uxNkSqJnNwkNvo2A8flPC4mPoga69SN6kdj1LHQyZV6Y+gLyqccp8nRIGDAg==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.05.04 (build 7)</title>
       <pubDate>Mon, 04 May 2026 05:25:15 +0800</pubDate>

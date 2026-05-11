@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2026-05-04T05:25:15Z",
+  "generatedAt": "2026-05-11T15:05:22Z",
   "versions": [
+    {
+      "version": "2026.05.11",
+      "buildNumber": "8",
+      "title": "Release 2026.05.11 (build 8)",
+      "publishedAt": "2026-05-11T15:05:22Z",
+      "summary": [
+        "Added a standalone `post_discord_notification.sh` script for posting release notifications to Discord.",
+        "Improved Discord release messages so they send only the summary instead of extra details.",
+        "Fixed the release notes script so it no longer silently aborts when given an empty version range."
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(release): add standalone post_discord_notification.sh script"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(release): send only summary to Discord, fix empty-range silent abort in notes script"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.05.11-2008 (build 8) notes and version bump"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.05.11-2303/Quests-2026.05.11.zip",
+      "sparkleSignature": "9iH99jSrInTDd07nMYewoqvUI3uxNkSqJnNwkNvo2A8flPC4mPoga69SN6kdj1LHQyZV6Y+gLyqccp8nRIGDAg=="
+    },
     {
       "version": "2026.05.04",
       "buildNumber": "7",
