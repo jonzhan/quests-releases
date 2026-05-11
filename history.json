@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-05-11T15:05:22Z",
+  "generatedAt": "2026-05-11T17:45:37Z",
   "versions": [
+    {
+      "version": "2026.05.12",
+      "buildNumber": "9",
+      "title": "Release 2026.05.12 (build 9)",
+      "publishedAt": "2026-05-11T17:45:37Z",
+      "summary": [
+        "Added snooze improvements: optional snooze reasons, variable snooze durations, and date-specific deferrals.",
+        "Snooze UI now shows expiry times and hides the default snooze reason when not needed.",
+        "Added support for scheduling wake-ups when snoozes expire.",
+        "Diagnostics refresh timers now include countdown progress bars."
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(ui): add optional snooze reason"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): show snooze expiry times"
+        },
+        {
+          "category": "Added",
+          "text": "feat(app): schedule snooze expiry wakes"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): add variable snooze durations"
+        },
+        {
+          "category": "Added",
+          "text": "feat(another-day): support date-specific deferrals"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): hide default snooze reason"
+        },
+        {
+          "category": "Internal",
+          "text": "Add countdown progress bars to diagnostics refresh timers"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.05.11-2303 (build 8)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.05.12-0144/Quests-2026.05.12.zip",
+      "sparkleSignature": "VEnlsIKOMh7lGs9JDmchJ+Yr70c7EPqCFMtt5FEn+zS0bVCPQL88JcXXql77kmVQVchkYogwWPdT8N3jhqgJAg=="
+    },
     {
       "version": "2026.05.11",
       "buildNumber": "8",

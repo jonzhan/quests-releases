@@ -5,7 +5,30 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Mon, 11 May 2026 15:05:22 +0000</pubDate>
+    <pubDate>Mon, 11 May 2026 17:45:37 +0000</pubDate>
+    <item>
+      <title>Release 2026.05.12 (build 9)</title>
+      <pubDate>Mon, 11 May 2026 17:45:37 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>Added snooze improvements: optional snooze reasons, variable snooze durations, and date-specific deferrals.</li>
+<li>Snooze UI now shows expiry times and hides the default snooze reason when not needed.</li>
+<li>Added support for scheduling wake-ups when snoozes expire.</li>
+<li>Diagnostics refresh timers now include countdown progress bars.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(ui): add optional snooze reason</li>
+<li><strong>[Added]</strong> feat(ui): show snooze expiry times</li>
+<li><strong>[Added]</strong> feat(app): schedule snooze expiry wakes</li>
+<li><strong>[Added]</strong> feat(ui): add variable snooze durations</li>
+<li><strong>[Added]</strong> feat(another-day): support date-specific deferrals</li>
+<li><strong>[Fixed]</strong> fix(ui): hide default snooze reason</li>
+<li><strong>[Internal]</strong> Add countdown progress bars to diagnostics refresh timers</li>
+<li><strong>[Internal]</strong> chore(release): v2026.05.11-2303 (build 8)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.05.12-0144/Quests-2026.05.12.zip" sparkle:version="9" sparkle:shortVersionString="2026.05.12" sparkle:edSignature="VEnlsIKOMh7lGs9JDmchJ+Yr70c7EPqCFMtt5FEn+zS0bVCPQL88JcXXql77kmVQVchkYogwWPdT8N3jhqgJAg==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.05.11 (build 8)</title>
       <pubDate>Mon, 11 May 2026 15:05:22 +0800</pubDate>
