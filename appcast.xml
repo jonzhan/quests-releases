@@ -5,7 +5,31 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Mon, 11 May 2026 17:45:37 +0000</pubDate>
+    <pubDate>Sat, 31 Oct 2026 08:34:43 +0000</pubDate>
+    <item>
+      <title>Release 2026.10.31 (build 10)</title>
+      <pubDate>Sat, 31 Oct 2026 08:34:43 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>✨ Fresh new vibe for the focused quest card with regular material styling — it’s looking extra polished and pig-mazing!</li>
+<li>🛠️ Fixed the snooze picker crash near the end of the day, so last-hour snoozing is much more stable now.</li>
+<li>🐷 Improved release notes with even more petunia-y flair — because a little extra oink never hurts.</li>
+<li>✅ Smoothed out test and verification flows behind the scenes, helping prevent weird relaunch/deferral hiccups from sneaking into releases.</li>
+<li>🔧 Updated build compatibility for Xcode 27.2, keeping everything happily compiling and ready to roll.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(ui): Regular material for the focused quest card</li>
+<li><strong>[Added]</strong> feat: more petunia-y release notes</li>
+<li><strong>[Fixed]</strong> fix(tests): wait for verification pause before ending Linear relaunch test</li>
+<li><strong>[Fixed]</strong> fix(build): compile under Xcode 27.2</li>
+<li><strong>[Fixed]</strong> fix(tests): stop hardcoding a past deferral date in AnotherDay tests</li>
+<li><strong>[Fixed]</strong> fix(ui): prevent snooze picker crash in the last hour of the day</li>
+<li><strong>[Internal]</strong> docs(agents): add guardrails for container-backed tests and MainActor doubles</li>
+<li><strong>[Internal]</strong> chore(release): v2026.05.12-0144 (build 9)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.10.31-1620/Quests-2026.10.31.zip" sparkle:version="10" sparkle:shortVersionString="2026.10.31" sparkle:edSignature="4r8sbHqEf8lPfyNV6asYXEmg151Frub/xJXq0JnIp1GizEoyZaXRMWHTXEFq3nqGG8Zi0ypK049plsnHCXk0BQ==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.05.12 (build 9)</title>
       <pubDate>Mon, 11 May 2026 17:45:37 +0800</pubDate>

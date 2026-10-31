@@ -1,6 +1,55 @@
 {
-  "generatedAt": "2026-05-11T17:45:37Z",
+  "generatedAt": "2026-10-31T08:34:43Z",
   "versions": [
+    {
+      "version": "2026.10.31",
+      "buildNumber": "10",
+      "title": "Release 2026.10.31 (build 10)",
+      "publishedAt": "2026-10-31T08:34:43Z",
+      "summary": [
+        "✨ Fresh new vibe for the focused quest card with regular material styling — it’s looking extra polished and pig-mazing!",
+        "🛠️ Fixed the snooze picker crash near the end of the day, so last-hour snoozing is much more stable now.",
+        "🐷 Improved release notes with even more petunia-y flair — because a little extra oink never hurts.",
+        "✅ Smoothed out test and verification flows behind the scenes, helping prevent weird relaunch/deferral hiccups from sneaking into releases.",
+        "🔧 Updated build compatibility for Xcode 27.2, keeping everything happily compiling and ready to roll."
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(ui): Regular material for the focused quest card"
+        },
+        {
+          "category": "Added",
+          "text": "feat: more petunia-y release notes"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(tests): wait for verification pause before ending Linear relaunch test"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(build): compile under Xcode 27.2"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(tests): stop hardcoding a past deferral date in AnotherDay tests"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): prevent snooze picker crash in the last hour of the day"
+        },
+        {
+          "category": "Internal",
+          "text": "docs(agents): add guardrails for container-backed tests and MainActor doubles"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.05.12-0144 (build 9)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.10.31-1620/Quests-2026.10.31.zip",
+      "sparkleSignature": "4r8sbHqEf8lPfyNV6asYXEmg151Frub/xJXq0JnIp1GizEoyZaXRMWHTXEFq3nqGG8Zi0ypK049plsnHCXk0BQ=="
+    },
     {
       "version": "2026.05.12",
       "buildNumber": "9",
