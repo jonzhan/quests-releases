@@ -5,7 +5,7 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Tue, 17 Nov 2026 10:50:35 +0000</pubDate>
+    <pubDate>Tue, 17 Nov 2026 10:51:28 +0000</pubDate>
     <item>
       <title>Release 2026.11.17 (build 12)</title>
       <pubDate>Tue, 17 Nov 2026 10:50:35 +0800</pubDate>
@@ -20,6 +20,41 @@
 <li><strong>[Internal]</strong> chore(release): v2026.11.17-1829 (build 11)</li>
 </ul>]]></description>
       <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.17-1848/Quests-2026.11.17.zip" sparkle:version="12" sparkle:shortVersionString="2026.11.17" sparkle:edSignature="EATpwbF4QKkfZbMNXUkpnqfhsmfs+qQWGOOkjp6+Mhx6WeodZPMEw6gH85rTXYrlL6kC4epRb0uNMKP1MyaNBQ==" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Release 2026.11.17 (build 11)</title>
+      <pubDate>Tue, 17 Nov 2026 10:32:08 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>🎉 You can now **open Claude Desktop directly with a prompt for a quest** — instant launch, less clicking, more doing.</li>
+<li>🐷 The board got a **big glow-up**: you can **multi-select On Deck quests and defer them together**, plus see **agent chat links on cards** and open a shiny new **notes sheet** right from the board.</li>
+<li>📝 **Quest notes are here!** Notes now work across **Things, Coda, Craft, and Linear**, with a proper notes model and managed section support so your piggy little notes stay organized.</li>
+<li>🛠️ MCP just got much beefier: there’s now a **Settings → Agents pane**, a **tools-only MCP server**, **quest board tools**, and agents can run over a **user-only Unix socket with a stdio bridge**. Oink yeah.</li>
+<li>🔧 Important fix: **in-flight MCP replies now still get delivered even after the client stops sending**, so conversations won’t get cut off mid-snort.</li>
+<li>🧱 Craft support is more reliable now too: **single tasks are read via `GET blocks?id`**, and Craft notes are stored as **child blocks inside the task page** for better verification and syncing.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(agents): open Claude desktop with a prompt for a quest</li>
+<li><strong>[Added]</strong> feat(board): multi-select On Deck quests and defer them together</li>
+<li><strong>[Added]</strong> feat(board): show agent chat links on cards and add a notes sheet</li>
+<li><strong>[Added]</strong> feat(mcp): add Settings → Agents pane and document the MCP surface</li>
+<li><strong>[Added]</strong> feat(mcp): serve agents over a user-only Unix socket with a stdio bridge</li>
+<li><strong>[Added]</strong> feat(mcp): add tools-only MCP server and quest board tools</li>
+<li><strong>[Added]</strong> feat(defer): batch Another Day with one write per source</li>
+<li><strong>[Added]</strong> feat(notes): expose notes commands on the app model, serialized per quest</li>
+<li><strong>[Added]</strong> feat(notes): read and write quest notes in Things, Coda, Craft and Linear</li>
+<li><strong>[Added]</strong> feat(notes): add quest notes model and plain-line managed section codec</li>
+<li><strong>[Fixed]</strong> fix(mcp): deliver in-flight replies after the client stops sending</li>
+<li><strong>[Fixed]</strong> fix(craft): read single tasks via GET blocks?id so verification runs</li>
+<li><strong>[Internal]</strong> docs(release-notes): draft user-facing notes for M9 Agents</li>
+<li><strong>[Internal]</strong> docs(spec): store Craft notes as child blocks inside the task page</li>
+<li><strong>[Internal]</strong> docs(contracts): record M9.1 live API spike results</li>
+<li><strong>[Internal]</strong> docs(spec): add M9 Agents contract for notes, session links, batch defer, MCP</li>
+<li><strong>[Internal]</strong> chore(release): report Discord success and push the release tag</li>
+<li><strong>[Internal]</strong> chore(release): v2026.10.31-1620 (build 10)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.17-1829/Quests-2026.11.17.zip" sparkle:version="11" sparkle:shortVersionString="2026.11.17" sparkle:edSignature="w2/xw7ORvc9ICTa720PqEYs24s1bpETA4aLmmQfHpPWVnEPeK7v43F9/J/ewGMxrVqaRT3jJV3SslwRY3K73Bw==" type="application/octet-stream"/>
     </item>
     <item>
       <title>Release 2026.10.31 (build 10)</title>
