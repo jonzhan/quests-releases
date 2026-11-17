@@ -1,95 +1,27 @@
 {
-  "generatedAt": "2026-11-17T10:32:08Z",
+  "generatedAt": "2026-11-17T10:50:35Z",
   "versions": [
     {
       "version": "2026.11.17",
-      "buildNumber": "11",
-      "title": "Release 2026.11.17 (build 11)",
-      "publishedAt": "2026-11-17T10:32:08Z",
+      "buildNumber": "12",
+      "title": "Release 2026.11.17 (build 12)",
+      "publishedAt": "2026-11-17T10:50:35Z",
       "summary": [
-        "🎉 You can now **open Claude Desktop directly with a prompt for a quest** — instant launch, less clicking, more doing.",
-        "🐷 The board got a **big glow-up**: you can **multi-select On Deck quests and defer them together**, plus see **agent chat links on cards** and open a shiny new **notes sheet** right from the board.",
-        "📝 **Quest notes are here!** Notes now work across **Things, Coda, Craft, and Linear**, with a proper notes model and managed section support so your piggy little notes stay organized.",
-        "🛠️ MCP just got much beefier: there’s now a **Settings → Agents pane**, a **tools-only MCP server**, **quest board tools**, and agents can run over a **user-only Unix socket with a stdio bridge**. Oink yeah.",
-        "🔧 Important fix: **in-flight MCP replies now still get delivered even after the client stops sending**, so conversations won’t get cut off mid-snort.",
-        "🧱 Craft support is more reliable now too: **single tasks are read via `GET blocks?id`**, and Craft notes are stored as **child blocks inside the task page** for better verification and syncing."
+        "🚀 Big piggy powers unlocked: agent round-trip workflows are now available as MCP prompts, making it easier to kick off and guide agent flows right from your tools.",
+        "🐷 Fresh release oinked out: version v2026.11.17-1829 is now live with build 11."
       ],
       "entries": [
         {
           "category": "Added",
-          "text": "feat(agents): open Claude desktop with a prompt for a quest"
-        },
-        {
-          "category": "Added",
-          "text": "feat(board): multi-select On Deck quests and defer them together"
-        },
-        {
-          "category": "Added",
-          "text": "feat(board): show agent chat links on cards and add a notes sheet"
-        },
-        {
-          "category": "Added",
-          "text": "feat(mcp): add Settings → Agents pane and document the MCP surface"
-        },
-        {
-          "category": "Added",
-          "text": "feat(mcp): serve agents over a user-only Unix socket with a stdio bridge"
-        },
-        {
-          "category": "Added",
-          "text": "feat(mcp): add tools-only MCP server and quest board tools"
-        },
-        {
-          "category": "Added",
-          "text": "feat(defer): batch Another Day with one write per source"
-        },
-        {
-          "category": "Added",
-          "text": "feat(notes): expose notes commands on the app model, serialized per quest"
-        },
-        {
-          "category": "Added",
-          "text": "feat(notes): read and write quest notes in Things, Coda, Craft and Linear"
-        },
-        {
-          "category": "Added",
-          "text": "feat(notes): add quest notes model and plain-line managed section codec"
-        },
-        {
-          "category": "Fixed",
-          "text": "fix(mcp): deliver in-flight replies after the client stops sending"
-        },
-        {
-          "category": "Fixed",
-          "text": "fix(craft): read single tasks via GET blocks?id so verification runs"
+          "text": "feat(agents): serve the agent round-trip workflows as MCP prompts"
         },
         {
           "category": "Internal",
-          "text": "docs(release-notes): draft user-facing notes for M9 Agents"
-        },
-        {
-          "category": "Internal",
-          "text": "docs(spec): store Craft notes as child blocks inside the task page"
-        },
-        {
-          "category": "Internal",
-          "text": "docs(contracts): record M9.1 live API spike results"
-        },
-        {
-          "category": "Internal",
-          "text": "docs(spec): add M9 Agents contract for notes, session links, batch defer, MCP"
-        },
-        {
-          "category": "Internal",
-          "text": "chore(release): report Discord success and push the release tag"
-        },
-        {
-          "category": "Internal",
-          "text": "chore(release): v2026.10.31-1620 (build 10)"
+          "text": "chore(release): v2026.11.17-1829 (build 11)"
         }
       ],
-      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.17-1829/Quests-2026.11.17.zip",
-      "sparkleSignature": "w2/xw7ORvc9ICTa720PqEYs24s1bpETA4aLmmQfHpPWVnEPeK7v43F9/J/ewGMxrVqaRT3jJV3SslwRY3K73Bw=="
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.17-1848/Quests-2026.11.17.zip",
+      "sparkleSignature": "EATpwbF4QKkfZbMNXUkpnqfhsmfs+qQWGOOkjp6+Mhx6WeodZPMEw6gH85rTXYrlL6kC4epRb0uNMKP1MyaNBQ=="
     },
     {
       "version": "2026.10.31",
