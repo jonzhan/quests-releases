@@ -1,6 +1,59 @@
 {
-  "generatedAt": "2026-11-17T10:50:35Z",
+  "generatedAt": "2026-11-18T08:37:59Z",
   "versions": [
+    {
+      "version": "2026.11.18.1633",
+      "buildNumber": "13",
+      "title": "Release 2026.11.18.1633 (build 13)",
+      "publishedAt": "2026-11-18T08:37:59Z",
+      "summary": [
+        "🐷 **MCP writes now speak up!** Agents can report when writes are **accepted or rejected**, so you get clearer feedback on what happened.",
+        "🚀 **New `search_quests` MCP tool added!** A fresh way to search quests right from the agent side — oinkcredible for discovery.",
+        "⏱️ **Write verification got a big reliability boost.** Paused write checks now resume properly, and Coda writes are confirmed within about a minute for a smoother sync experience.",
+        "🧾 **Release history is way more accurate now.** Same-version and same-day releases are now distinguished by **build number**, so the release notes stay tidy and correct.",
+        "🏷️ **Release versions now include tag time.** That means clearer version tracking and fewer “which build was that?” mysteries."
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(agents): report accepted or rejected writes over MCP"
+        },
+        {
+          "category": "Added",
+          "text": "feat(agents): add search_quests MCP tool"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(routines): confirm Coda writes within about a minute"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(sync): resume paused write verification"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(release-notes): distinguish same-version releases by build number"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(release): include the tag time in release versions"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(release): keep same-day releases in history by build number"
+        },
+        {
+          "category": "Internal",
+          "text": "test(sync): cover failed deferrals and replaced paused verification"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.11.17-1848 (build 12)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.18-1633/Quests-2026.11.18.1633.zip",
+      "sparkleSignature": "+CJFwK8j/H8BnEl7sOAfm+5pd7+ZXsNnJ9MuzI0CzsJfzQiRnDJh1X7gntf5NNhzEJzrNPvQF9mlE6wD6InrCQ=="
+    },
     {
       "version": "2026.11.17",
       "buildNumber": "12",

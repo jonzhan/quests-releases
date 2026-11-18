@@ -5,7 +5,32 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Tue, 17 Nov 2026 10:51:28 +0000</pubDate>
+    <pubDate>Wed, 18 Nov 2026 08:37:59 +0000</pubDate>
+    <item>
+      <title>Release 2026.11.18.1633 (build 13)</title>
+      <pubDate>Wed, 18 Nov 2026 08:37:59 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>🐷 **MCP writes now speak up!** Agents can report when writes are **accepted or rejected**, so you get clearer feedback on what happened.</li>
+<li>🚀 **New `search_quests` MCP tool added!** A fresh way to search quests right from the agent side — oinkcredible for discovery.</li>
+<li>⏱️ **Write verification got a big reliability boost.** Paused write checks now resume properly, and Coda writes are confirmed within about a minute for a smoother sync experience.</li>
+<li>🧾 **Release history is way more accurate now.** Same-version and same-day releases are now distinguished by **build number**, so the release notes stay tidy and correct.</li>
+<li>🏷️ **Release versions now include tag time.** That means clearer version tracking and fewer “which build was that?” mysteries.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(agents): report accepted or rejected writes over MCP</li>
+<li><strong>[Added]</strong> feat(agents): add search_quests MCP tool</li>
+<li><strong>[Fixed]</strong> fix(routines): confirm Coda writes within about a minute</li>
+<li><strong>[Fixed]</strong> fix(sync): resume paused write verification</li>
+<li><strong>[Fixed]</strong> fix(release-notes): distinguish same-version releases by build number</li>
+<li><strong>[Fixed]</strong> fix(release): include the tag time in release versions</li>
+<li><strong>[Fixed]</strong> fix(release): keep same-day releases in history by build number</li>
+<li><strong>[Internal]</strong> test(sync): cover failed deferrals and replaced paused verification</li>
+<li><strong>[Internal]</strong> chore(release): v2026.11.17-1848 (build 12)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.18-1633/Quests-2026.11.18.1633.zip" sparkle:version="13" sparkle:shortVersionString="2026.11.18.1633" sparkle:edSignature="+CJFwK8j/H8BnEl7sOAfm+5pd7+ZXsNnJ9MuzI0CzsJfzQiRnDJh1X7gntf5NNhzEJzrNPvQF9mlE6wD6InrCQ==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.11.17 (build 12)</title>
       <pubDate>Tue, 17 Nov 2026 10:50:35 +0800</pubDate>
