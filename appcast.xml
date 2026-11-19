@@ -5,7 +5,29 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Wed, 18 Nov 2026 08:37:59 +0000</pubDate>
+    <pubDate>Thu, 19 Nov 2026 10:38:16 +0000</pubDate>
+    <item>
+      <title>Release 2026.11.19.1836 (build 14)</title>
+      <pubDate>Thu, 19 Nov 2026 10:38:16 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>🐷✨ Agents can now handle workflows from plain-language requests — just say what you want, and they’ll get rolling!</li>
+<li>🧭 Agents can now spot the currently focused “this quest” with a new `get_focused_quest` helper, making quest navigation way smoother.</li>
+<li>🆕 `create_quest` now returns the newly created quest right away, which makes follow-up actions much easier and cleaner.</li>
+<li>⏱️ The usual confirmation window is now reported separately, giving clearer insight into timing and prompts.</li>
+<li>🚀 Fresh release out the pen, piggies: v2026.11.18-1633 (build 13) is here!</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(agents): report the usual confirmation window separately</li>
+<li><strong>[Added]</strong> feat(agents): return the new quest from create_quest</li>
+<li><strong>[Added]</strong> feat(agents): add get_focused_quest so agents can find &quot;this quest&quot;</li>
+<li><strong>[Added]</strong> feat(agents): drive agent workflows from plain-language requests</li>
+<li><strong>[Internal]</strong> chore: ignore LLVM coverage output</li>
+<li><strong>[Internal]</strong> chore(release): v2026.11.18-1633 (build 13)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.19-1836/Quests-2026.11.19.1836.zip" sparkle:version="14" sparkle:shortVersionString="2026.11.19.1836" sparkle:edSignature="l09ClfMOi11eZ174Byd3kg0GXxwY/gekTGIXDF2LooX21EplhZ0WT5dLFQNv9ubgNu5ZihvN4r1QoyQbnW9lAA==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.11.18.1633 (build 13)</title>
       <pubDate>Wed, 18 Nov 2026 08:37:59 +0800</pubDate>

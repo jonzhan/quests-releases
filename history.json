@@ -1,6 +1,47 @@
 {
-  "generatedAt": "2026-11-18T08:37:59Z",
+  "generatedAt": "2026-11-19T10:38:16Z",
   "versions": [
+    {
+      "version": "2026.11.19.1836",
+      "buildNumber": "14",
+      "title": "Release 2026.11.19.1836 (build 14)",
+      "publishedAt": "2026-11-19T10:38:16Z",
+      "summary": [
+        "🐷✨ Agents can now handle workflows from plain-language requests — just say what you want, and they’ll get rolling!",
+        "🧭 Agents can now spot the currently focused “this quest” with a new `get_focused_quest` helper, making quest navigation way smoother.",
+        "🆕 `create_quest` now returns the newly created quest right away, which makes follow-up actions much easier and cleaner.",
+        "⏱️ The usual confirmation window is now reported separately, giving clearer insight into timing and prompts.",
+        "🚀 Fresh release out the pen, piggies: v2026.11.18-1633 (build 13) is here!"
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(agents): report the usual confirmation window separately"
+        },
+        {
+          "category": "Added",
+          "text": "feat(agents): return the new quest from create_quest"
+        },
+        {
+          "category": "Added",
+          "text": "feat(agents): add get_focused_quest so agents can find \"this quest\""
+        },
+        {
+          "category": "Added",
+          "text": "feat(agents): drive agent workflows from plain-language requests"
+        },
+        {
+          "category": "Internal",
+          "text": "chore: ignore LLVM coverage output"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.11.18-1633 (build 13)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.19-1836/Quests-2026.11.19.1836.zip",
+      "sparkleSignature": "l09ClfMOi11eZ174Byd3kg0GXxwY/gekTGIXDF2LooX21EplhZ0WT5dLFQNv9ubgNu5ZihvN4r1QoyQbnW9lAA=="
+    },
     {
       "version": "2026.11.18.1633",
       "buildNumber": "13",
