@@ -5,7 +5,32 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Thu, 19 Nov 2026 15:08:02 +0000</pubDate>
+    <pubDate>Thu, 19 Nov 2026 16:10:26 +0000</pubDate>
+    <item>
+      <title>Release 2026.11.20.0008 (build 16)</title>
+      <pubDate>Thu, 19 Nov 2026 16:10:26 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>🎉 **Freshened up release notes:** the “What’s New” header got a tidy makeover, and the download button now stays out of the way when you’re already up to date.</li>
+<li>📝 **Notes got a glow-up:** the Notes sheet is gone, and you can now edit notes and folders right in place for a much smoother, snappier workflow.</li>
+<li>🔗 **Better note syncing:** notes changes now return the right Linear description and the note’s own ID, helping everything stay connected and accurate.</li>
+<li>🧩 **Board UI polish:** count badges now behave more nicely on single-item groups, with cleaner centered titles and a hover-fill effect when groups are collapsed. Hog wild, but tidy.</li>
+<li>📚 **Craft notes improved:** notes now stay together in one block, making them easier to read, edit, and keep neat as a pig in mud.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(focused): retire the Notes sheet; edit notes and folder in place (BUN-343)</li>
+<li><strong>[Added]</strong> feat(board): hide count badges on single-quest groups, add hover fill (BUN-340)</li>
+<li><strong>[Fixed]</strong> fix(release-notes): tidy the What&#39;s New header; hide download when already current</li>
+<li><strong>[Fixed]</strong> fix(notes): return the written Linear description from notes changes</li>
+<li><strong>[Fixed]</strong> fix(board): keep group titles centered with trailing count badges (BUN-340)</li>
+<li><strong>[Fixed]</strong> fix(notes): keep Craft notes in one block and return the note&#39;s own ID (BUN-331)</li>
+<li><strong>[Internal]</strong> docs(agents): clean up merged branches and worktrees without archiving sessions</li>
+<li><strong>[Internal]</strong> style(board): fill the count badge only when its group is collapsed (BUN-340)</li>
+<li><strong>[Internal]</strong> chore(release): v2026.11.19-2305 (build 15)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.20-0008/Quests-2026.11.20.0008.zip" sparkle:version="16" sparkle:shortVersionString="2026.11.20.0008" sparkle:edSignature="bRSxL847/Ldc/98Y3xmkza+VhAj8Kb/LhRgBIgR5itCR/3PXysSTNaQ/nYXUS8KMPQm+kAxlm61w35x1WHUmDA==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.11.19.2305 (build 15)</title>
       <pubDate>Thu, 19 Nov 2026 15:08:02 +0800</pubDate>

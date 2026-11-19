@@ -1,6 +1,59 @@
 {
-  "generatedAt": "2026-11-19T15:08:02Z",
+  "generatedAt": "2026-11-19T16:10:26Z",
   "versions": [
+    {
+      "version": "2026.11.20.0008",
+      "buildNumber": "16",
+      "title": "Release 2026.11.20.0008 (build 16)",
+      "publishedAt": "2026-11-19T16:10:26Z",
+      "summary": [
+        "🎉 **Freshened up release notes:** the “What’s New” header got a tidy makeover, and the download button now stays out of the way when you’re already up to date.",
+        "📝 **Notes got a glow-up:** the Notes sheet is gone, and you can now edit notes and folders right in place for a much smoother, snappier workflow.",
+        "🔗 **Better note syncing:** notes changes now return the right Linear description and the note’s own ID, helping everything stay connected and accurate.",
+        "🧩 **Board UI polish:** count badges now behave more nicely on single-item groups, with cleaner centered titles and a hover-fill effect when groups are collapsed. Hog wild, but tidy.",
+        "📚 **Craft notes improved:** notes now stay together in one block, making them easier to read, edit, and keep neat as a pig in mud."
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(focused): retire the Notes sheet; edit notes and folder in place (BUN-343)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(board): hide count badges on single-quest groups, add hover fill (BUN-340)"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(release-notes): tidy the What's New header; hide download when already current"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(notes): return the written Linear description from notes changes"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(board): keep group titles centered with trailing count badges (BUN-340)"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(notes): keep Craft notes in one block and return the note's own ID (BUN-331)"
+        },
+        {
+          "category": "Internal",
+          "text": "docs(agents): clean up merged branches and worktrees without archiving sessions"
+        },
+        {
+          "category": "Internal",
+          "text": "style(board): fill the count badge only when its group is collapsed (BUN-340)"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.11.19-2305 (build 15)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.20-0008/Quests-2026.11.20.0008.zip",
+      "sparkleSignature": "bRSxL847/Ldc/98Y3xmkza+VhAj8Kb/LhRgBIgR5itCR/3PXysSTNaQ/nYXUS8KMPQm+kAxlm61w35x1WHUmDA=="
+    },
     {
       "version": "2026.11.19.2305",
       "buildNumber": "15",
