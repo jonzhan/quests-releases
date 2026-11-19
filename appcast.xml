@@ -5,7 +5,45 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Thu, 19 Nov 2026 10:38:16 +0000</pubDate>
+    <pubDate>Thu, 19 Nov 2026 15:08:02 +0000</pubDate>
+    <item>
+      <title>Release 2026.11.19.2305 (build 15)</title>
+      <pubDate>Thu, 19 Nov 2026 15:08:02 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>🐷✨ Agent notes got a major glow-up: per-note chats, working folders, and markdown-friendly note threads are now supported, with live format checks to keep everything squeaky clean.</li>
+<li>🚀 You can now open Claude session links directly in Claude Desktop, and notes also accept native Codex thread links — talk about smoother handoffs!</li>
+<li>🎯 The board and focused quest views now show notes alongside the quest, including note chats and working folders, so everything you need is right there in one tidy pigpen.</li>
+<li>🧭 New guided quest handoffs make it easier to jump into the right work, and agents now ask which source to create a quest in before creating it.</li>
+<li>📏 Hand-offs now stay under Claude’s prompt limit, so long drafts won’t trample the fence anymore.</li>
+<li>🎛️ UI polish alert: the focused quest notes pane is better organized, focused quest/notes cards are separated, and collapsible count badges make the board easier to scan.</li>
+<li>🛠️ Small but mighty fixes: duplicate snooze punctuation is gone, and focused description scrolling now behaves properly beside notes.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Added]</strong> feat(agents): add five guided quest handoffs</li>
+<li><strong>[Added]</strong> feat(board): add collapsible count badges (BUN-340)</li>
+<li><strong>[Added]</strong> feat(ui): refine the focused quest notes pane (BUN-339)</li>
+<li><strong>[Added]</strong> feat(board): show notes alongside the focused quest (BUN-334)</li>
+<li><strong>[Added]</strong> feat(board): show note chats and working folders (BUN-334)</li>
+<li><strong>[Added]</strong> feat(agents): chat_url on notes, set_working_folder, no session-link tools (BUN-333)</li>
+<li><strong>[Added]</strong> feat(notes): Linear chat lines in comments and a working-folder line (BUN-332)</li>
+<li><strong>[Added]</strong> feat(notes): Craft notes with per-note chats and a working folder (BUN-331)</li>
+<li><strong>[Added]</strong> feat(notes): Markdown agent notes with per-note chats and a working folder (BUN-330)</li>
+<li><strong>[Added]</strong> feat(notes): open Claude session links in Claude desktop (BUN-327)</li>
+<li><strong>[Added]</strong> feat(agents): ask which source to create a quest in</li>
+<li><strong>[Fixed]</strong> fix(agents): keep handoff drafts under Claude&#39;s prompt limit</li>
+<li><strong>[Fixed]</strong> fix(agents): accept native Codex thread links in notes</li>
+<li><strong>[Fixed]</strong> fix(playground): remove duplicate snooze punctuation (BUN-340)</li>
+<li><strong>[Fixed]</strong> fix(ui): separate focused quest and notes cards (BUN-339)</li>
+<li><strong>[Internal]</strong> docs(release-notes): add the M10 agent notes changes</li>
+<li><strong>[Internal]</strong> refactor(board): group agent handoffs by purpose</li>
+<li><strong>[Internal]</strong> test(ui): cover focused description scrolling beside notes (BUN-338)</li>
+<li><strong>[Internal]</strong> docs(contracts): record live checks of the Markdown agent-notes format (BUN-329)</li>
+<li><strong>[Internal]</strong> chore(release): v2026.11.19-1836 (build 14)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.19-2305/Quests-2026.11.19.2305.zip" sparkle:version="15" sparkle:shortVersionString="2026.11.19.2305" sparkle:edSignature="NIWgbdd8bZijMfORy2P6AuftZMWUhBoZL0FWtpoM2Q/EZHqtcelPKb9i4gH9azXtgBGuhX3hGc6SY4kDqFyTCQ==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.11.19.1836 (build 14)</title>
       <pubDate>Thu, 19 Nov 2026 10:38:16 +0800</pubDate>

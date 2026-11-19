@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-11-19T10:38:16Z",
+  "generatedAt": "2026-11-19T15:08:02Z",
   "versions": [
+    {
+      "version": "2026.11.19.2305",
+      "buildNumber": "15",
+      "title": "Release 2026.11.19.2305 (build 15)",
+      "publishedAt": "2026-11-19T15:08:02Z",
+      "summary": [
+        "🐷✨ Agent notes got a major glow-up: per-note chats, working folders, and markdown-friendly note threads are now supported, with live format checks to keep everything squeaky clean.",
+        "🚀 You can now open Claude session links directly in Claude Desktop, and notes also accept native Codex thread links — talk about smoother handoffs!",
+        "🎯 The board and focused quest views now show notes alongside the quest, including note chats and working folders, so everything you need is right there in one tidy pigpen.",
+        "🧭 New guided quest handoffs make it easier to jump into the right work, and agents now ask which source to create a quest in before creating it.",
+        "📏 Hand-offs now stay under Claude’s prompt limit, so long drafts won’t trample the fence anymore.",
+        "🎛️ UI polish alert: the focused quest notes pane is better organized, focused quest/notes cards are separated, and collapsible count badges make the board easier to scan.",
+        "🛠️ Small but mighty fixes: duplicate snooze punctuation is gone, and focused description scrolling now behaves properly beside notes."
+      ],
+      "entries": [
+        {
+          "category": "Added",
+          "text": "feat(agents): add five guided quest handoffs"
+        },
+        {
+          "category": "Added",
+          "text": "feat(board): add collapsible count badges (BUN-340)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(ui): refine the focused quest notes pane (BUN-339)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(board): show notes alongside the focused quest (BUN-334)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(board): show note chats and working folders (BUN-334)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(agents): chat_url on notes, set_working_folder, no session-link tools (BUN-333)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(notes): Linear chat lines in comments and a working-folder line (BUN-332)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(notes): Craft notes with per-note chats and a working folder (BUN-331)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(notes): Markdown agent notes with per-note chats and a working folder (BUN-330)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(notes): open Claude session links in Claude desktop (BUN-327)"
+        },
+        {
+          "category": "Added",
+          "text": "feat(agents): ask which source to create a quest in"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(agents): keep handoff drafts under Claude's prompt limit"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(agents): accept native Codex thread links in notes"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(playground): remove duplicate snooze punctuation (BUN-340)"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(ui): separate focused quest and notes cards (BUN-339)"
+        },
+        {
+          "category": "Internal",
+          "text": "docs(release-notes): add the M10 agent notes changes"
+        },
+        {
+          "category": "Internal",
+          "text": "refactor(board): group agent handoffs by purpose"
+        },
+        {
+          "category": "Internal",
+          "text": "test(ui): cover focused description scrolling beside notes (BUN-338)"
+        },
+        {
+          "category": "Internal",
+          "text": "docs(contracts): record live checks of the Markdown agent-notes format (BUN-329)"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.11.19-1836 (build 14)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.19-2305/Quests-2026.11.19.2305.zip",
+      "sparkleSignature": "NIWgbdd8bZijMfORy2P6AuftZMWUhBoZL0FWtpoM2Q/EZHqtcelPKb9i4gH9azXtgBGuhX3hGc6SY4kDqFyTCQ=="
+    },
     {
       "version": "2026.11.19.1836",
       "buildNumber": "14",
