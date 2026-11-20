@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-20T13:11:15Z",
+  "generatedAt": "2026-11-20T20:53:26Z",
   "versions": [
+    {
+      "version": "2026.11.21.0445",
+      "buildNumber": "18",
+      "title": "Release 2026.11.21.0445 (build 18)",
+      "publishedAt": "2026-11-20T20:53:26Z",
+      "summary": [
+        "Notes now update on the open quest as soon as a note is saved, including notes added by an agent.",
+        "Each note has its own card, with space between notes and a compact Add a note composer below the list."
+      ],
+      "entries": [
+        {
+          "category": "Fixed",
+          "text": "New notes appear on the focused quest without needing to reopen it."
+        },
+        {
+          "category": "Improved",
+          "text": "Focused notes have separate cards, and the composer stays available while the notes scroll."
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.21-0445/Quests-2026.11.21.0445.zip",
+      "sparkleSignature": "tZIWs39trA+6+nhDkslws7EGvBw4Y8usxRiyFa+2LH7BaixDdcF7lAQTccvulYx+ZsKrHvPaiGoWeoPf/4AnDQ=="
+    },
     {
       "version": "2026.11.20.2109",
       "buildNumber": "17",

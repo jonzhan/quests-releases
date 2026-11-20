@@ -5,7 +5,22 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Fri, 20 Nov 2026 13:11:15 +0000</pubDate>
+    <pubDate>Fri, 20 Nov 2026 20:53:26 +0000</pubDate>
+    <item>
+      <title>Release 2026.11.21.0445 (build 18)</title>
+      <pubDate>Fri, 20 Nov 2026 20:53:26 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>Notes now update on the open quest as soon as a note is saved, including notes added by an agent.</li>
+<li>Each note has its own card, with space between notes and a compact Add a note composer below the list.</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Fixed]</strong> New notes appear on the focused quest without needing to reopen it.</li>
+<li><strong>[Improved]</strong> Focused notes have separate cards, and the composer stays available while the notes scroll.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.21-0445/Quests-2026.11.21.0445.zip" sparkle:version="18" sparkle:shortVersionString="2026.11.21.0445" sparkle:edSignature="tZIWs39trA+6+nhDkslws7EGvBw4Y8usxRiyFa+2LH7BaixDdcF7lAQTccvulYx+ZsKrHvPaiGoWeoPf/4AnDQ==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.11.20.2109 (build 17)</title>
       <pubDate>Fri, 20 Nov 2026 13:11:15 +0800</pubDate>
