@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-11-19T16:10:26Z",
+  "generatedAt": "2026-11-20T13:11:15Z",
   "versions": [
+    {
+      "version": "2026.11.20.2109",
+      "buildNumber": "17",
+      "title": "Release 2026.11.20.2109 (build 17)",
+      "publishedAt": "2026-11-20T13:11:15Z",
+      "summary": [
+        "🐷 Fixes for to-dos now read the correct due date instead of a phantom deadline property — no more date confusion!",
+        "🚀 Coda write pacing is smarter and more reliable, with retries for 429 rate-limit hiccups so things keep moving smoothly.",
+        "🧰 Craft trash handling got a big glow-up: tasks in trashed documents are now properly excluded, and matching is faster thanks to a cached trash snapshot.",
+        "🎯 Board pills now show source notices instead of triage counts, making the status display clearer and more useful.",
+        "📚 Added docs confirming the live Craft trash-matching behavior, so the pig trail is nicely documented too!"
+      ],
+      "entries": [
+        {
+          "category": "Fixed",
+          "text": "fix(things): read the to-do's due date, not a nonexistent deadline property (BUN-347)"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(coda): pace writes under the measured rate limit and retry 429s (BUN-346)"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(board): a source notice replaces the triage count on its pill (BUN-324)"
+        },
+        {
+          "category": "Fixed",
+          "text": "fix(craft): leave out tasks in trashed documents (BUN-324)"
+        },
+        {
+          "category": "Performance",
+          "text": "perf(craft): match tasks against a cached trash snapshot (BUN-324)"
+        },
+        {
+          "category": "Internal",
+          "text": "docs(contracts): record live confirmation of Craft trash matching (BUN-324)"
+        },
+        {
+          "category": "Internal",
+          "text": "chore(release): v2026.11.20-0008 (build 16)"
+        }
+      ],
+      "downloadURLString": "https://github.com/jonzhan/quests-releases/releases/download/v2026.11.20-2109/Quests-2026.11.20.2109.zip",
+      "sparkleSignature": "lyWtG1GmrUS9A2fapmW2YvsqfSuWRmJR1XsO9uZ4DIYSTfks3NHPeB/4hrKvqGRLYDTNcmkWvPhnK+9kGA21Aw=="
+    },
     {
       "version": "2026.11.20.0008",
       "buildNumber": "16",

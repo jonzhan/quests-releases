@@ -5,7 +5,30 @@
     <link>https://github.com/jonzhan/quests-releases/releases</link>
     <description>Quests release updates</description>
     <language>en</language>
-    <pubDate>Thu, 19 Nov 2026 16:10:26 +0000</pubDate>
+    <pubDate>Fri, 20 Nov 2026 13:11:15 +0000</pubDate>
+    <item>
+      <title>Release 2026.11.20.2109 (build 17)</title>
+      <pubDate>Fri, 20 Nov 2026 13:11:15 +0800</pubDate>
+      <description><![CDATA[<h3>Summary</h3>
+<ul>
+<li>🐷 Fixes for to-dos now read the correct due date instead of a phantom deadline property — no more date confusion!</li>
+<li>🚀 Coda write pacing is smarter and more reliable, with retries for 429 rate-limit hiccups so things keep moving smoothly.</li>
+<li>🧰 Craft trash handling got a big glow-up: tasks in trashed documents are now properly excluded, and matching is faster thanks to a cached trash snapshot.</li>
+<li>🎯 Board pills now show source notices instead of triage counts, making the status display clearer and more useful.</li>
+<li>📚 Added docs confirming the live Craft trash-matching behavior, so the pig trail is nicely documented too!</li>
+</ul>
+<h3>Details</h3>
+<ul>
+<li><strong>[Fixed]</strong> fix(things): read the to-do&#39;s due date, not a nonexistent deadline property (BUN-347)</li>
+<li><strong>[Fixed]</strong> fix(coda): pace writes under the measured rate limit and retry 429s (BUN-346)</li>
+<li><strong>[Fixed]</strong> fix(board): a source notice replaces the triage count on its pill (BUN-324)</li>
+<li><strong>[Fixed]</strong> fix(craft): leave out tasks in trashed documents (BUN-324)</li>
+<li><strong>[Performance]</strong> perf(craft): match tasks against a cached trash snapshot (BUN-324)</li>
+<li><strong>[Internal]</strong> docs(contracts): record live confirmation of Craft trash matching (BUN-324)</li>
+<li><strong>[Internal]</strong> chore(release): v2026.11.20-0008 (build 16)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/jonzhan/quests-releases/releases/download/v2026.11.20-2109/Quests-2026.11.20.2109.zip" sparkle:version="17" sparkle:shortVersionString="2026.11.20.2109" sparkle:edSignature="lyWtG1GmrUS9A2fapmW2YvsqfSuWRmJR1XsO9uZ4DIYSTfks3NHPeB/4hrKvqGRLYDTNcmkWvPhnK+9kGA21Aw==" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Release 2026.11.20.0008 (build 16)</title>
       <pubDate>Thu, 19 Nov 2026 16:10:26 +0800</pubDate>
